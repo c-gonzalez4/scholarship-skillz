@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    color: black;
+}
+  
+body{
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+html, body{
+    overflow-x: hidden;
+} 
+
+  /*Resuable Code*/ 
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+  
+  /*Heading*/ 
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    justify-content: space-around;
+    position: relative;
+    top: 60px;
+      
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    padding-bottom: 10px;
+}
+
+nav a:hover{
+    color: #8f8b8b;
+    
+    
+    transition: color  1s;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/tj-dragotta-Gl0jBJJTDWs-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.logo img{
+    height: 90px;
+    position: absolute;
+    left: 200px;
+    top: 20px;
+    
+} 
+  
+
+.top{
+    
+    width: 100%;
+    
+}
+
+.hero{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+/*Text Styles*/
+h1{
+    font-size: 225%;
+}
+
+h1, h2{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+h2{
+    font-size: 100%;
+}
+
+/*Button */
+
+
+.btn {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #a10b0b;
+    border-radius: 200px;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  .fill{
+    background-color: #a10b0b;
+}
+
+.fill:hover{
+  background-color: #780505;
+  transition: background-color 0.5s;
+}
