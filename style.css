@@ -24,7 +24,10 @@ html, body{
     max-width: 1140px;
     margin: 0 auto;
 }
-  
+
+section{
+    padding: 80px 0;
+}
   /*Heading*/ 
 
 nav ul {
@@ -34,7 +37,7 @@ nav ul {
     justify-content: space-around;
     position: relative;
     top: 60px;
-      
+    
 }
 
 nav a{
@@ -45,8 +48,6 @@ nav a{
 
 nav a:hover{
     color: #8f8b8b;
-    
-    
     transition: color  1s;
 }
 
@@ -58,11 +59,13 @@ header{
     background-position: center;
 }
 
+
 .logo img{
     height: 90px;
-    position: absolute;
+    position: absolute; 
     left: 200px;
     top: 20px;
+    
     
 } 
   
@@ -71,7 +74,9 @@ header{
     
     width: 100%;
     
+    
 }
+
 
 .hero{
     position: absolute;
@@ -90,9 +95,35 @@ h1, h2{
     letter-spacing: 5px;
     font-weight: 300;
 }
+
 h2{
     font-size: 100%;
 }
+
+h3{
+    font-weight: 500;
+    font-size: 150%;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+h3::after{
+    content: "";
+    display: block;
+    background-color: #a10b0b;
+    position: relative;
+    width: 50px;
+    height: 5px;
+     
+    margin-top: 5px;
+    
+}
+
+.events h3{
+    color: white;
+}
+   
 
 /*Button */
 
@@ -115,3 +146,58 @@ h2{
   background-color: #780505;
   transition: background-color 0.5s;
 }
+
+.contactus{
+    font-size: 85%; 
+    padding: 10px 20px;
+    margin-top: 25px;
+}
+
+/*About Section*/
+
+.picture img{
+    height: 500px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.picture-outline{
+    border: 5px solid #a10b0b;
+    height: 500px;
+    width: 550px;
+    position: relative;
+    float: none;
+    display: inline-block;
+
+}
+.about{
+    padding-top: 100px;
+}
+.paragraph{
+    float: right;
+    /* border: 5px solid black; */
+    width: 50%;
+    position: relative;
+    padding-left: 50px;
+    top: 100px;
+}
+.about p {
+    padding-top: 30px;
+    line-height: 150%;
+    width: 100%;
+    font-size: 85%;
+    font-weight: 300;
+    
+}
+
+.picture{
+    float: left;
+}
+
+/*Events*/
+
+.events{
+    background-color: #232423;
+}
+
