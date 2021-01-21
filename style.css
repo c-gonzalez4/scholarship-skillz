@@ -122,6 +122,21 @@ h3::after{
 
 .events h3{
     color: white;
+    text-align: center;
+}
+
+
+.events h3::after{
+    left: 394px;
+}
+
+.photos h3{ 
+    text-align: center;
+}
+
+.photos h3::after{
+    left: 43%;
+    
 }
    
 
@@ -157,20 +172,22 @@ h3::after{
 
 .picture img{
     height: 500px;
-    position: absolute;
+    
+    position: absolute; 
     top: 15px;
     right: 10px;
+    box-shadow: 5px 5px 5px #777777; 
 }
 
-.picture-outline{
-    border: 5px solid #a10b0b;
+ .picture-outline{
+    /* border: 5px solid #a10b0b; */
     height: 500px;
-    width: 550px;
+    width: 555px;
     position: relative;
     float: none;
     display: inline-block;
 
-}
+} 
 .about{
     padding-top: 100px;
 }
@@ -199,5 +216,16 @@ h3::after{
 
 .events{
     background-color: #232423;
+    
+}
+
+.fb-page{
+    padding-top: 40px;
+    left: 31%;
+}
+
+/*Photos*/ 
+.apps{
+    margin-top: 50px;
 }
 
