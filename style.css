@@ -2,12 +2,15 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 html{
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
     color: black;
+    scroll-behavior: smooth;
+    
 }
   
 body{
@@ -23,10 +26,13 @@ html, body{
 .row{
     max-width: 1140px;
     margin: 0 auto;
+    
 }
 
 section{
-    padding: 80px 0;
+    padding: 80px 40px;
+    
+    
 }
   /*Heading*/ 
 
@@ -38,11 +44,11 @@ section{
     position: relative;
     top: 60px;
     
-} */
+}  */
 nav ul{
     list-style: none;
     
-}
+} 
 nav{
     float: right;
     padding-top: 30px;
@@ -60,10 +66,10 @@ nav a:hover{
     transition: color  1s;
 }
 
-nav li{
+ nav li{
     display: inline-block;
     padding-right: 50px;
-}
+} 
 
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/tj-dragotta-Gl0jBJJTDWs-unsplash.jpg");
@@ -84,7 +90,8 @@ header{
 }  */
 .logo{
     float: left;
-}
+    padding-left: 50px;
+} 
 .logo img{
     height: 100px;
 }
@@ -95,7 +102,8 @@ header{
 
 .top{
     padding-top: 20px;
-}
+    
+} 
 
 
 .hero{
@@ -104,6 +112,33 @@ header{
     left: 20%;
 }
 
+/*Navigation for phone*/
+.burger{
+    display: none;
+    cursor: pointer;
+}
+.burger div{
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+/* .close{
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    right: 30px;
+    top: 15px;
+}
+
+.close:hover, 
+.close:focus{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+} */
 /*Text Styles*/
 
 
@@ -208,24 +243,28 @@ h3::after{
 
 /*About Section*/
 
+/* .picture{
+    margin-left: 50px;
+} */
+
 .picture img{
     height: 450px;
     
-    position: absolute; 
+    position: relative; 
     top: 15px;
     right: 10px;
     box-shadow: 5px 5px 5px #777777; 
 }
 
- .picture-outline{
-    /* border: 5px solid #a10b0b; */
+.picture-outline{
+    /* border: 5px solid #a10b0b;  */
     height: 500px;
-    width: 555px;
+    width: 50%;
     position: relative;
     float: none;
     display: inline-block;
 
-} 
+}  
 .about{
     padding-top: 100px;
 }
@@ -299,7 +338,7 @@ label{
     margin-left: 5%;
 }
 
-input[type=button]{
+input[type=submit]{
     margin-left: 40%;
     cursor: pointer;
     font-size: 18px;
