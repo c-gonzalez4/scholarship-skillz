@@ -20,6 +20,7 @@ body{
 
 html, body{
     overflow-x: hidden;
+    
 } 
 
   /*Resuable Code*/ 
@@ -80,14 +81,6 @@ header{
 }
 
 
-/* .logo img{
-    height: 90px;
-    position: absolute; 
-    left: 200px;
-    top: 20px;
-    
-    
-}  */
 .logo{
     float: left;
     padding-left: 50px;
@@ -125,20 +118,7 @@ header{
     transition: all 0.3s ease;
 }
 
-/* .close{
-    color: white;
-    position: absolute;
-    font-weight: bold;
-    right: 30px;
-    top: 15px;
-}
 
-.close:hover, 
-.close:focus{
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-} */
 /*Text Styles*/
 
 
@@ -184,7 +164,8 @@ h3::after{
 
 
 .events h3::after{
-    left: 394px;
+    /* left: 394px; */
+    left: 34.5%;
 }
 
 .photos h3, .contact h3{ 
@@ -201,12 +182,7 @@ h3::after{
     
 }
 
-/* .eapps-instagram-feed-title{
-    font-size: 20px;
-    font-weight: 400;
-    font-family: 'Noto Sans JP', sans-serif;
-    margin-bottom: 20px;
-} */
+
 
 .contact h3{
     color: white;
@@ -236,58 +212,39 @@ h3::after{
 }
 
 .contactus{
-    font-size: 85%; 
+    font-size: 75%; 
     padding: 10px 20px;
     margin-top: 25px;
 }
 
 /*About Section*/
-
-/* .picture{
-    margin-left: 50px;
-} */
+.picture{
+    position: relative;
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
 
 .picture img{
-    height: 450px;
-    
-    position: relative; 
-    top: 15px;
-    right: 10px;
-    box-shadow: 5px 5px 5px #777777; 
+    width: 70%;
+    box-shadow: 5px 5px 5px #777777;
 }
 
-.picture-outline{
-    /* border: 5px solid #a10b0b;  */
-    height: 500px;
-    width: 50%;
-    position: relative;
-    float: none;
-    display: inline-block;
-
-}  
-.about{
-    padding-top: 100px;
-}
 .paragraph{
-    float: right;
-    /* border: 5px solid black; */
     width: 50%;
-    position: relative;
-    padding-left: 50px;
-    top: 90px;
+    display: inline-block;
 }
+
 .about p {
     padding-top: 30px;
     line-height: 150%;
-    width: 100%;
+    width: 85%;
     font-size: 85%;
     font-weight: 400;
     
 }
 
-.picture{
-    float: left;
-}
+
 
 /*Events*/
 
@@ -298,10 +255,7 @@ h3::after{
 .fbapp{
     padding-top: 50px;
 }
-/* .fb-page{
-    padding-top: 40px;
-    left: 31%;
-} */
+
 
 /*Photos*/ 
 
@@ -365,6 +319,10 @@ input[type=submit]{
     
 }
 
+.map-box{
+    width: 100%;
+}
+
 
 .location{
     display: inline-block;
@@ -409,9 +367,7 @@ footer{
     width: 100%;
 }
 
-/* .end{
-    display: flex;
-} */
+
 
 .social-logo{
     font-size: 130%;

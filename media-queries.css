@@ -1,5 +1,46 @@
-/*Phone Navigation*/
+@media screen and (max-width: 1000px){
+    h1{
+        font-size: 200%;
+    }
 
+    h2{
+        font-size: 80%;
+    }
+
+    .btn{
+        font-size: 85%;
+    }
+
+    h3{
+        font-size: 130%;
+    }
+    
+    .picture{
+        margin-top: 7%;
+    }
+
+    .events h3::after{
+        
+        left: 32.8%;
+    }
+
+    .photos h3::after{
+        left: 41.9%;
+        
+    }
+
+    .contact h3::after{
+        left: 38.7%;
+    
+    }
+
+    .map-box iframe{
+        width: 120%;
+    }
+
+}
+
+/*Phone Navigation*/
 @media screen and (max-width: 760px){
     .ul-link{
         position: absolute;
