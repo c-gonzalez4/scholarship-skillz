@@ -67,7 +67,7 @@ nav a:hover{
     transition: color  1s;
 }
 
- nav li{
+nav li{
     display: inline-block;
     padding-right: 50px;
 } 
@@ -150,7 +150,7 @@ h3::after{
     display: block;
     background-color: #a10b0b;
     position: relative;
-    width: 50px;
+    width: 70px;
     height: 5px;
      
     margin-top: 5px;
@@ -165,7 +165,9 @@ h3::after{
 
 .events h3::after{
     /* left: 394px; */
-    left: 34.5%;
+    margin: 0 auto;
+    margin-top: 10px;
+
 }
 
 .photos h3, .contact h3{ 
@@ -173,12 +175,16 @@ h3::after{
 }
 
 .contact h3::after{
-    left: 40%;
+    /* left: 40%; */
+    margin: 0 auto;
+    margin-top: 10px;
 
 }
 
 .photos h3::after{
-    left: 43%;
+    /* left: 43%; */
+    margin: 0 auto;
+    margin-top: 10px;
     
 }
 
@@ -223,10 +229,11 @@ h3::after{
     width: 50%;
     display: inline-block;
     float: left;
+    padding-right: 20px;
 }
 
 .picture img{
-    width: 70%;
+    width: 380px;
     box-shadow: 5px 5px 5px #777777;
 }
 
@@ -293,7 +300,8 @@ label{
 }
 
 input[type=submit]{
-    margin-left: 40%;
+    display: block;
+    margin: 0 auto;
     cursor: pointer;
     font-size: 18px;
     
@@ -314,10 +322,11 @@ input[type=submit]{
 
 .contact-info{
     width: 50%;
-    margin-left: 30px;;
-    padding: 0 8%;
+    margin-left: 30px;
+    padding: 0 8%; 
     
 }
+
 
 .map-box{
     width: 100%;

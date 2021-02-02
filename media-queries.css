@@ -16,30 +16,100 @@
     }
     
     .picture{
-        margin-top: 7%;
-    }
-
-    .events h3::after{
-        
-        left: 32.8%;
-    }
-
-    .photos h3::after{
-        left: 41.9%;
-        
-    }
-
-    .contact h3::after{
-        left: 38.7%;
-    
+        margin-top: 5%;
     }
 
     .map-box iframe{
         width: 120%;
     }
 
+    h3::after{
+        width: 60px;
+        
+    }
+
 }
 
+@media screen and (max-width: 900px){
+    .picture img{
+        width: 350px;
+        
+    }
+
+    .contactus{
+        font-size: 73% ;
+    }
+
+    .about p{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 840px){
+    .picture img{
+        width: 320px;
+    }
+
+    .about p{
+        font-size: 75%;
+    }
+
+    .contactus{
+        font-size: 65%;
+    }
+
+    h1{
+        font-size: 160%;
+    }
+
+    .btn{
+        font-size: 75%;
+    }
+
+    
+}
+
+@media screen and (max-width: 834px){
+    .location{
+        font-size: 16px;
+    }
+
+    .box > a{
+        font-size: 16px;
+    }
+    /*Work on the address box   */
+}
+
+@media screen and (max-width: 801px){
+
+    section{
+        padding: 50px 20px;
+    }
+    body{
+        font-size: 18px;
+    }
+    .entire-area{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .contact-container, .contact-info {
+        width: 60%;
+        margin: 0 auto;
+
+    }
+    .contact-info{
+        margin-top: 60px;
+        padding: 0 4%;
+        margin-right: 25%;
+        
+    }
+    
+    
+   
+}
 /*Phone Navigation*/
 @media screen and (max-width: 760px){
     .ul-link{
@@ -107,5 +177,89 @@
 
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
+
+}
+
+@media screen and (max-width: 701px){
+    .logo{
+        
+        padding-left: 10px;
+    }
+
+    .hero{
+        top: 28%;
+        left: 10%;
+    }
+
+    .picture img{
+        width: 290px;
+        
+    }
+
+    header{
+        height: 55vh;
+        
+    }
+
+    .ul-link{
+       
+        height: 47vh;
+        top: 8vh;
+        
+        
+        
+    }
+}
+
+@media screen and (max-width: 673px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .picture{
+        /* left: 16%; */
+        margin: 0 auto;
+        display: block;
+        float: none;
+        margin-bottom: 30px; 
+    }
+    
+
+    .paragraph{
+        
+        width: 60%;
+        display: block;
+        margin: auto;
+
+    }
+
+    .contact-container{
+        width: 90%;
+    }
+
+    .contact-info{
+        width: 85%;
+    }
+
+    
+}
+
+@media screen and (max-width: 596px){
+    body{
+        font-size: 14px;
+    }
+
+    
+}
+
+@media screen and (max-width: 484px){
+    body{
+        font-size: 12px;
+    }
+
+    .paragraph{
+        width: 65%;
+    }
 
 }
