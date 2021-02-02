@@ -218,7 +218,7 @@
     }
 
     .picture{
-        /* left: 16%; */
+        
         margin: 0 auto;
         display: block;
         float: none;
@@ -250,10 +250,14 @@
         font-size: 14px;
     }
 
+    .picture{
+        right: 5%;
+    }
+    
     
 }
 
-@media screen and (max-width: 484px){
+@media screen and (max-width: 485px){
     body{
         font-size: 12px;
     }
@@ -262,4 +266,45 @@
         width: 65%;
     }
 
+    .picture{
+        right: 8%;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+    body{
+        font-size: 11px;
+    }
+
+    .ul-link{
+       
+        height: 40vh;
+        top: 15vh;
+    }
+
+    .picture{
+        right: 12%;
+    }
+}
+
+@media screen and (max-width: 376px){
+    h1{
+        font-size: 145%;
+    }
+
+    .hero{
+        
+        left: 5%;
+    }
+
+    .picture img{
+        width: 260px;
+        
+    }
+
+    .paragraph{
+        width: 70%;
+        font-size: 12px;
+    }
 }
